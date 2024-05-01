@@ -100,7 +100,7 @@ def new_game():
         for column in range(3):
             buttons[row][column].config(text="",bg="#F0F0F0")
 
-
+# x and o
 window = Tk()
 window.title("Tic-Tac-Toe")
 players = ["x","o"]
