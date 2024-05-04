@@ -35,6 +35,7 @@ def next_turn(row, column):
             elif check_winner() == "Tie":
                 label.config(text="Tie!")
 
+# checkwinner
 def check_winner():
 
     for row in range(3):
