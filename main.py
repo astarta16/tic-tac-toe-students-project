@@ -36,7 +36,7 @@ def next_turn(row, column):
                 label.config(text="Tie!")
 
 def check_winner():
-
+# checkwinner
     for row in range(3):
         if buttons[row][0]['text'] == buttons[row][1]['text'] == buttons[row][2]['text'] != "":
             buttons[row][0].config(bg="green")
