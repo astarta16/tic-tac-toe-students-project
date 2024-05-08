@@ -1,6 +1,7 @@
 from tkinter import *
 import random
 
+# next turn
 def next_turn(row, column):
 
     global player
