@@ -1,9 +1,7 @@
 from tkinter import *
 import random
 
-# next turn
 def next_turn(row, column):
-
     global player
 
     if buttons[row][column]['text'] == "" and check_winner() is False:
